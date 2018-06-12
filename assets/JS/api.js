@@ -40,7 +40,7 @@ $( document ).ready(function() {
     // Function that displays all of the gifs
     function displayGifs(){
         var band = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + band + "&api_key=dc6zaTOxFJmzC&limit=8";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + band + "&api_key=dc6zaTOxFJmzC&limit=8";
        
         $.ajax({
             url: queryURL,
