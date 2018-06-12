@@ -1,0 +1,38 @@
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    
+
+
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+
+
+}
+
+input, label {
+    font-family: 'News Cycle', sans-serif;
+
+}
+
+.jumbotron {
+    border-style: solid black 5px;
+}
+
+body {
+    height:auto;
+    margin-bottom:25px;
+    background-image: url(../images/round.png);
+    background-repeat: repeat-xy;
+        
+}
+
+.btn {
+    margin:3px;
+}
+
+#gifsView {
+    margin-left:25px;
+    margin-right:25px;
+}
