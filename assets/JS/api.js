@@ -59,6 +59,7 @@ $( document ).ready(function() {
                 gifDiv.addClass("gifDiv col-sm-12 col-lg-3 img-thumbnail");
                 // pulling rating of gif
                 var gifRating = $("<p>").text("Rating: " + results[i].rating);
+                var clickToPlay = $("<p>").text("Click Image To Play");
                 gifDiv.append(gifRating);
                 // pulling gif
                 var gifImage = $("<img>");
@@ -68,6 +69,7 @@ $( document ).ready(function() {
                 gifImage.attr("data-state", "still"); // set the image state
                 gifImage.addClass("image");
                 gifDiv.append(gifImage);
+                gifDiv.append(clickToPlay);
                 // pulling still image of gif
                 // adding div of gifs to gifsView div
                 $("#gifsView").prepend(gifDiv);
